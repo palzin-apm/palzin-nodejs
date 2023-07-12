@@ -40,7 +40,7 @@ class Transport {
     const options = {
       host: this._conf.url,
       port: 443,
-      path: '/',
+      path: '/api/1/store',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

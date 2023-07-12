@@ -1,6 +1,7 @@
 'use strict'
 
 const os = require('os')
+const ip = require('ip')
 
 class Transaction {
 
@@ -15,8 +16,8 @@ class Transaction {
     this._result = ''
     this._host = {
       hostname: os.hostname(),
-      /*ip: os.address,
-      cpu_usage: "float",
+      ip:ip.address(),
+      /*cpu_usage: "float",
       "memory_usage": "float",
       "disk_usage": "float"*/
     }
