@@ -10,7 +10,7 @@ class Palzin {
       url: "demo.palzin.app",
       ingestionKey: "",
       enabled: true,
-      version: "23.03.23",
+      version: "23.3.23",
       autoWiring: true,
       modules: [],
       maxEntries: 100,
