@@ -1,6 +1,6 @@
 {
   "name": "@palzin-apm/palzin-nodejs",
-  "version": "23.3.23",
+  "version": "23.3.24",
   "description": "Real-Time monitoring Nodejs package using Palzin Monitor",
   "main": "index.js",
   "scripts": {

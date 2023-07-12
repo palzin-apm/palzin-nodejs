@@ -16,7 +16,7 @@ class Transaction {
     this._result = ''
     this._host = {
       hostname: os.hostname(),
-      ip:ip.address(),
+      ip: ip.address() ? ip.address() : '127.0.0.1',
       /*cpu_usage: "float",
       "memory_usage": "float",
       "disk_usage": "float"*/
